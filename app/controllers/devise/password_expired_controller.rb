@@ -6,7 +6,7 @@ class Devise::PasswordExpiredController < DeviseController
     if not resource.nil? and resource.need_change_password?
       respond_with(resource)
     else
-      redirect_to :root
+      root_path
     end
   end
 
