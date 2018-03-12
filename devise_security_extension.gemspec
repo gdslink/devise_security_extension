@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name = "devise_security_extension"
   s.version = "0.8.0"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  # s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Marco Scholl", "Alexander Dreher"]
   s.date = "2014-01-31"
