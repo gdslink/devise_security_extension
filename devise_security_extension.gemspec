@@ -66,12 +66,12 @@ Gem::Specification.new do |s|
   # s.rubygems_version = "2.2.1"
   s.summary = "Security extension for devise"
 
-  s.add_dependency(%q<rails>, [">= 3.1.1"])
-  s.add_dependency(%q<devise>, [">= 2.0.0"])
-  s.add_dependency(%q<rails_email_validator>, [">= 0"])
-  s.add_dependency(%q<easy_captcha>, [">= 0"])
-  s.add_dependency(%q<bundler>, [">= 1.0.0"])
-  s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
+  s.add_runtime_dependency(%q<rails>, [">= 3.1.1"])
+  s.add_runtime_dependency(%q<devise>, [">= 2.0.0"])
+  s.add_development_dependency(%q<rails_email_validator>, [">= 0"])
+  s.add_development_dependency(%q<easy_captcha>, [">= 0"])
+  s.add_development_dependency(%q<bundler>, [">= 1.0.0"])
+  s.add_development_dependency(%q<jeweler>, ["~> 2.0.1"])
 
 
   # if s.respond_to? :specification_version then
