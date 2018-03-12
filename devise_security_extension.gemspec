@@ -63,7 +63,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/phatworx/devise_security_extension"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.2.1"
+  # s.rubygems_version = "2.2.1"
   s.summary = "Security extension for devise"
 
   if s.respond_to? :specification_version then
